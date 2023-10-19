@@ -13,8 +13,8 @@
 }
 
 #hero{
-    /* background-image: url('../img/hero.jpg'); */
-    background-image: url('https://cdn.wallpapersafari.com/10/24/RTpbwM.jpg');
+    background-image: url('../img/hero.jpeg');
+    /* background-image: url('https://cdn.wallpapersafari.com/10/24/RTpbwM.jpg'); */
     background-size: cover;
     /* background-position: center; */
     background-repeat: no-repeat;
@@ -38,8 +38,28 @@
     color: #e2e2e2;
 }
 .more_news{
-    padding: 80px 70px;
+    padding: 50px 70px;
 }
+
+/* trending */
+.trending p{
+    font-size: 14px;
+}
+.trending .card-body{
+    padding: 30px 30px;
+}
+.responsive{
+    position: relative;
+}
+.slick-arrow > .right_arrow1{
+    position: absolute;
+    top: 0ps;
+    right: 0px;
+}
+/* trending */
+
+
+
 
 .underline{
     width: 100%;
@@ -54,7 +74,18 @@
     font-size: 14px;
     padding: 13px 30px;
 }
-
+@media only screen and (max-width:1075px){
+    .hero{
+        min-height: 300px;
+    }
+    .hero-text-box{
+        width: 700px;
+        height: 300px;
+        /* background-color: #fff; */
+        margin: auto;
+        margin-top: 180px;
+    }
+}
 
 
 @media only screen and (max-width:992px){
@@ -67,5 +98,8 @@
     }
     .hero-text-box p{
         font-size: 12px;
+    }
+    .more_news{
+        padding: 40px 20px;
     }
 }
