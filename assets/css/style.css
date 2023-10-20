@@ -159,6 +159,21 @@
 .footer-input{
     border: 1px solid #d0d0d0;
 }
+.footer-text{
+    color: #bcbcbc;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.social-icon{
+    font-size: 20px;
+}
+.img-container{
+    overflow: hidden;
+}
+.img-container img:hover{
+    transform: scale(1.2);
+    transition-duration: .6s;
+}
 
 
 
@@ -226,5 +241,12 @@
     }
     #happening .text-box{
         font-size: 12px;
+    }
+    .btn-pink{
+        padding: 9px 10px;
+        font-size: 12px;
+    }
+    footer{
+        text-align: center;
     }
 }
