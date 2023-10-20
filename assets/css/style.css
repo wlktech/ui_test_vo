@@ -51,10 +51,27 @@
 .responsive{
     position: relative;
 }
-.slick-arrow > .right_arrow1{
+
+.left_arrow1{
     position: absolute;
-    top: 0ps;
-    right: 0px;
+    top: -40px;
+    right: 50px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 18px;
+    color: #545454;
+}
+.right_arrow1{
+    position: absolute;
+    top: -40px;
+    right: 20px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 18px;
+    color: #545454;
+}
+.left_arrow1:hover, .right_arrow1:hover{
+    color: #000;
 }
 /* trending */
 
