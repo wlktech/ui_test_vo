@@ -172,14 +172,15 @@
     <!-- happending_now start -->
     <div class="container-fluid py-4 bg-light">
       <div class="container happening">
-        <h3 class="my-3 ps-3">HAPPENING NOW</h3>
+        
         <div class="row">
           <div class="col-lg-8 mb-3" id="happening">
+            <h3 class="ps-3">HAPPENING NOW</h3>
             <div class="p-3">
               <div class="img-container rounded">
                 <img src="./assets/img/card_images/1.png" class="w-100 rounded" alt="">
-                <h5>CITY</h5>
-                <div class="text-box">
+                <h5 class="d-none d-sm-block">CITY</h5>
+                <div class="text-box d-none d-sm-block">
                   <h4>Large article title</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero porro odit vitae laboriosam perferendis modi voluptas ut aliquid, minus illo.</p>
                   <i class="fa-regular fa-clock me-2"></i> <em>2 min ago</em>
@@ -189,8 +190,8 @@
             <div class="p-3">
               <div class="img-container rounded">
                 <img src="./assets/img/card_images/2.png" class="w-100 rounded" alt="">
-                <h5>TRAVEL</h5>
-                <div class="text-box">
+                <h5 class="d-none d-sm-block">TRAVEL</h5>
+                <div class="text-box d-none d-sm-block">
                   <h4>Large article title</h4>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero porro odit vitae laboriosam perferendis modi voluptas ut aliquid, minus illo.</p>
                   <i class="fa-regular fa-clock me-2"></i> <em>2 min ago</em>
@@ -198,35 +199,71 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 mb-3">
-            <div class="card border border-0 bg-light mt-3 mb-5">
-              <img src="./assets/img/card_images/5.png" alt="" class="card-img-top">
-              <div class="py-3">
-                <h5 class="text-dark">Small title</h5>
-                <div class="text-secondary">
-                  <i class="fa-regular fa-clock me-2"></i> 
-                  <em>3h ago by </em><a href=""  class="text-secondary"><em>Worldnews</em></a>
-                </div>
+          <div class="col-lg-4 mb-3" id="small-card">
+            <div class="responsive2">
+              <div>
+                  <div class="card border border-0 bg-light mb-5 px-3">
+                    <img src="./assets/img/card_images/5.png" alt="" class="card-img-top rounded">
+                    <div class="py-3">
+                      <h5 class="text-dark">Small title</h5>
+                      <div class="text-secondary">
+                        <i class="fa-regular fa-clock me-2"></i> 
+                        <em>3h ago by </em><a href=""  class="text-secondary"><em>Worldnews</em></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border border-0 bg-light mt-3 mb-5 px-3">
+                    <img src="./assets/img/card_images/6.png" alt="" class="card-img-top rounded">
+                    <div class="py-3">
+                      <h5 class="text-dark">Small title</h5>
+                      <div class="text-secondary">
+                        <i class="fa-regular fa-clock me-2"></i> 
+                        <em>3h ago by </em><a href=""  class="text-secondary"><em>Days</em></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border border-0 bg-light mt-3 mb-5 px-3">
+                    <img src="./assets/img/card_images/7.png" alt="" class="card-img-top rounded">
+                    <div class="py-3">
+                      <h5 class="text-dark">Small title</h5>
+                      <div class="text-secondary">
+                        <i class="fa-regular fa-clock me-2"></i> 
+                        <em>3h ago by </em><a href=""  class="text-secondary"><em>Monica</em></a>
+                      </div>
+                    </div>
+                  </div>
               </div>
-            </div>
-            <div class="card border border-0 bg-light mt-3 mb-5">
-              <img src="./assets/img/card_images/6.png" alt="" class="card-img-top">
-              <div class="py-3">
-                <h5 class="text-dark">Small title</h5>
-                <div class="text-secondary">
-                  <i class="fa-regular fa-clock me-2"></i> 
-                  <em>3h ago by </em><a href=""  class="text-secondary"><em>Days</em></a>
-                </div>
-              </div>
-            </div>
-            <div class="card border border-0 bg-light mt-3 mb-5">
-              <img src="./assets/img/card_images/7.png" alt="" class="card-img-top">
-              <div class="py-3">
-                <h5 class="text-dark">Small title</h5>
-                <div class="text-secondary">
-                  <i class="fa-regular fa-clock me-2"></i> 
-                  <em>3h ago by </em><a href=""  class="text-secondary"><em>Monica</em></a>
-                </div>
+              <div>
+                  <div class="card border border-0 bg-light mb-5 px-3">
+                    <img src="./assets/img/card_images/6.png" alt="" class="card-img-top rounded">
+                    <div class="py-3">
+                      <h5 class="text-dark">Small title</h5>
+                      <div class="text-secondary">
+                        <i class="fa-regular fa-clock me-2"></i> 
+                        <em>3h ago by </em><a href=""  class="text-secondary"><em>Worldnews</em></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border border-0 bg-light mt-3 mb-5 px-3">
+                    <img src="./assets/img/card_images/5.png" alt="" class="card-img-top rounded">
+                    <div class="py-3">
+                      <h5 class="text-dark">Small title</h5>
+                      <div class="text-secondary">
+                        <i class="fa-regular fa-clock me-2"></i> 
+                        <em>3h ago by </em><a href=""  class="text-secondary"><em>Days</em></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card border border-0 bg-light mt-3 mb-5 px-3">
+                    <img src="./assets/img/card_images/7.png" alt="" class="card-img-top rounded">
+                    <div class="py-3">
+                      <h5 class="text-dark">Small title</h5>
+                      <div class="text-secondary">
+                        <i class="fa-regular fa-clock me-2"></i> 
+                        <em>3h ago by </em><a href=""  class="text-secondary"><em>Monica</em></a>
+                      </div>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
@@ -236,8 +273,50 @@
     <!-- happending_now end -->
 
     <!-- footer start -->
-    <footer class="bg-secondary">
+    <footer class="bg-secondary py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <div class="row">
+              <div class="col-md-3 col-6 mb-3">
+                <h4 class="text-light">LOGO</h4>
+              </div>
+              <div class="col-md-3 col-6 mb-3">
+                <a href="" class="text-decoration-none footer-link">Home</a>
+                <a href="" class="text-decoration-none footer-link">Discovery</a>
+                <a href="" class="text-decoration-none footer-link">Photos</a>
+                <a href="" class="text-decoration-none footer-link">Contact</a>
+              </div>
+              <div class="col-md-3 col-6 mb-3">
+                <a href="" class="text-decoration-none footer-link">About</a>
+                <a href="" class="text-decoration-none footer-link">Help</a>
+                <a href="" class="text-decoration-none footer-link">Terms</a>
+                <a href="" class="text-decoration-none footer-link">Guidelines</a>
+              </div>
+              <div class="col-md-3 col-6 mb-3">
+                <a href="" class="text-decoration-none footer-link">Testimonials</a>
+                <a href="" class="text-decoration-none footer-link">Advertise</a>
+                <a href="" class="text-decoration-none footer-link">Integerations</a>
+                <a href="" class="text-decoration-none footer-link">Careers</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <div class="row justify-content-end">
+              <div class="col-md-6 mb-3">
+                <div class="input-group rounded footer-input">
+                  <input type="text" class="form-control bg-transparent border border-0" placeholder="Email">
+                  <button class="btn btn-outline-light border border-0"><i class="fas fa-location-arrow"></i></button>
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
 
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- footer end -->
 

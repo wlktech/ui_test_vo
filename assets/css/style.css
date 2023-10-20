@@ -121,7 +121,44 @@
 .left_arrow1:hover, .right_arrow1:hover{
     color: #000;
 }
-
+.responsive2{
+    position: relative;
+}
+.left_arrow2{
+    position: absolute;
+    top: -50px;
+    right: 70px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 18px;
+    color: #545454;
+}
+.right_arrow2{
+    position: absolute;
+    top: -50px;
+    right: 20px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 18px;
+    color: #545454;
+}
+.left_arrow2:hover, .right_arrow2:hover{
+    color: #898989;
+}
+#small-card{
+    margin-top: 59px;
+}
+.footer-link{
+    color: #b9b9b9;
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-input input::placeholder, .fa-location-arrow{
+    color: #d0d0d0;
+}
+.footer-input{
+    border: 1px solid #d0d0d0;
+}
 
 
 
@@ -177,5 +214,17 @@
     }
     .right_arrow1{
         right: 20px;
+    }
+}
+
+@media only screen and (max-width:576px){
+    #happening h5{
+        font-size: 14px;
+    }
+    #happening h4{
+        font-size: 16px;
+    }
+    #happening .text-box{
+        font-size: 12px;
     }
 }
