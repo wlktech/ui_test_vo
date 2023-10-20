@@ -11,6 +11,9 @@
 .nav-link{
     margin-right: 10px;
 }
+.fa-bars{
+    font-size: 25px;
+}
 
 #hero{
     background-image: url('../img/hero.jpeg');
@@ -51,8 +54,7 @@
 .responsive{
     position: relative;
 }
-
-.left_arrow1{
+.left_arrow{
     position: absolute;
     top: -40px;
     right: 70px;
@@ -61,9 +63,55 @@
     font-size: 18px;
     color: #545454;
 }
-.right_arrow1{
+.right_arrow{
     position: absolute;
     top: -40px;
+    right: 20px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 18px;
+    color: #545454;
+}
+.left_arrow:hover, .right_arrow:hover{
+    color: #000;
+}
+/* trending */
+
+/* happening */
+.img-container{
+    position: relative;
+}
+#happening h5{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: #fff;
+    text-shadow: 1px 2px 3px #808080;
+}
+#happening .text-box{
+    position: absolute;
+    bottom: 0;
+    padding: 40px;
+    color: #fff;
+}
+#happening .card{
+    margin-bottom: 500px;
+}
+.responsive1{
+    position: relative;
+}
+.left_arrow1{
+    position: absolute;
+    top: -80px;
+    right: 70px;
+    z-index: 1;
+    cursor: pointer;
+    font-size: 18px;
+    color: #545454;
+}
+.right_arrow1{
+    position: absolute;
+    top: -80px;
     right: 20px;
     z-index: 1;
     cursor: pointer;
@@ -73,7 +121,6 @@
 .left_arrow1:hover, .right_arrow1:hover{
     color: #000;
 }
-/* trending */
 
 
 
@@ -118,5 +165,17 @@
     }
     .more_news{
         padding: 40px 20px;
+    }
+    .left_arrow{
+        right: 50px;
+    }
+    .right_arrow{
+        right: 20px;
+    }
+    .left_arrow1{
+        right: 50px;
+    }
+    .right_arrow1{
+        right: 20px;
     }
 }
